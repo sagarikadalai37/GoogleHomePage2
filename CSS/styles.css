@@ -1,0 +1,118 @@
+html,body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+}
+#page{
+    position: relative;
+}
+#nav{
+    display: flex;
+    justify-content:flex-end;
+    margin-top: 20px;
+    margin-right:10px;
+}
+#nav a{
+    margin-right: 10px;
+
+}
+.toplink{
+    color:rgb(112, 105, 105);
+    padding:5px;
+    font-style: Roboto;
+}
+.toplink:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+a:hover{
+    cursor: pointer;
+}
+.topimage{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+#middle{
+    display: flex;
+    flex-grow: 1;
+    flex-direction:column;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+#logo{
+    cursor: pointer;
+    margin-top:-150px;
+}
+
+#searchbarcontainer{
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+}
+#search img,#voice img{
+    height: 25px;
+    width: 25px;
+}
+#search, #voice{
+    height: 100%;
+    top: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search{
+   left: 410px; 
+   padding-left: 10px;
+   padding-right: 20px;;
+}
+#voice{
+    right: 410px;
+    padding-right: 10px;
+}
+
+#searchbar{
+    font-size: 15px;
+    padding: 10px 40px 10px 40px;
+    width: 480px;
+    border-radius: 20px;
+    border: 2px solid RGB(237, 236, 232);
+    box-shadow: 1px 2px 2px RGB(194, 193, 190);
+    outline: 0px;
+   }
+#addcontainer{
+    margin: 10px 0 10px 600px;
+    cursor: pointer;
+    outline: 0px;
+    padding-top: 10px;
+    height: 115px;
+    width: 115px;
+    text-align: center;
+    justify-content: center;
+}
+#add img{
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    position: relative;
+} 
+#addcontainer:hover{
+    background-color: rgb(220, 220, 215);
+    border-radius: 5px;
+}
+.readtext{
+    width: 400px;
+    height: 20px;
+    border-radius: 30px;
+    border:2px solid RGB(207, 203, 192);
+    font-size: 12px;
+    padding-left: 8px;
+}
